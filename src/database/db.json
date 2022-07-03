@@ -1,0 +1,151 @@
+{
+  "transaction": [
+    {
+      "products": [
+        {
+          "title": "Tambah Item",
+          "name": "Binder",
+          "harga": "2000",
+          "id": 4,
+          "qty": 1
+        },
+        {
+          "name": "Penghapus",
+          "harga": "2500",
+          "id": 5,
+          "qty": 1
+        }
+      ],
+      "created_datetime": "2022-06-20T16:47:05.800Z",
+      "id": 1
+    },
+    {
+      "products": [
+        {
+          "name": "Binder",
+          "harga": "2000",
+          "id": 4,
+          "qty": 1
+        },
+        {
+          "name": "Pensil Mekanik",
+          "harga": "2000",
+          "id": 6,
+          "qty": 1
+        }
+      ],
+      "created_datetime": "2022-06-20T16:52:29.394Z",
+      "id": 2
+    },
+    {
+      "products": [
+        {
+          "name": "Binder",
+          "harga": "2000",
+          "id": 4,
+          "qty": 1
+        },
+        {
+          "name": "Pensil Mekanik",
+          "harga": "2000",
+          "id": 6,
+          "qty": 1
+        }
+      ],
+      "created_datetime": "2022-06-20T16:52:38.334Z",
+      "id": 3
+    },
+    {
+      "products": [
+        {
+          "name": "Pensil Mekanik",
+          "harga": "2000",
+          "id": 6,
+          "qty": 1
+        },
+        {
+          "name": "Binder",
+          "harga": "2000",
+          "id": 4,
+          "qty": 1
+        }
+      ],
+      "created_datetime": "2022-06-20T16:53:33.226Z",
+      "id": 4
+    },
+    {
+      "products": [
+        {
+          "name": "Binder",
+          "harga": "2000",
+          "id": 4,
+          "qty": 1
+        },
+        {
+          "name": "Pensil Mekanik",
+          "harga": "2000",
+          "id": 6,
+          "qty": 1
+        },
+        {
+          "name": "Isi Pensil",
+          "harga": "2000",
+          "id": 7,
+          "qty": 1
+        }
+      ],
+      "created_datetime": "2022-06-20T17:17:10.748Z",
+      "id": 5
+    },
+    {
+      "products": [
+        {
+          "name": "Pensil Mekanik",
+          "harga": "2000",
+          "id": 6,
+          "qty": 10
+        },
+        {
+          "name": "Label 101",
+          "harga": "2500",
+          "id": 8,
+          "qty": 10
+        }
+      ],
+      "created_datetime": "2022-06-21T15:53:21.557Z",
+      "id": 6
+    }
+  ],
+  "items": [
+    {
+      "name": "Binder",
+      "harga": "2000",
+      "id": 4
+    },
+    {
+      "name": "Pensil Mekanik",
+      "harga": "2000",
+      "id": 6
+    },
+    {
+      "name": "Isi Pensil",
+      "harga": "2000",
+      "id": 7
+    },
+    {
+      "name": "Label 101",
+      "harga": "2500",
+      "id": 8
+    },
+    {
+      "name": "Stabilo",
+      "harga": "2000",
+      "id": 9
+    },
+    {
+      "name": "Label 124",
+      "harga": "2500",
+      "id": 10
+    }
+  ]
+}

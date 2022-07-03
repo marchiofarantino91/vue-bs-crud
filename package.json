@@ -4,10 +4,19 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "db": "json-server --watch ./src/database/db.json",
+    "dev": "npm-run-all --parallel db serve"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
+    "mutationobserver-shim": "^0.3.7",
+    "npm-run-all": "^4.1.5",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -17,8 +26,12 @@
     "@vue/cli-plugin-router": "~4.5.15",
     "@vue/cli-plugin-vuex": "~4.5.15",
     "@vue/cli-service": "~4.5.15",
+    "axios": "^0.18.0",
     "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-bootstrap-vue": "~0.8.2",
     "vue-template-compiler": "^2.6.11"
   }
 }
